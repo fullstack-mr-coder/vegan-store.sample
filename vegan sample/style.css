@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+.about{
+    margin-right: 40px;
+}
+#but1{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0px;
+}
+#heading-line{
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+    height:100vh;
+    
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#hz{
+  
+    font-size: 44px;
+    max-width: 1100px;
+    letter-spacing: 8.8px;
+    margin: 0px auto;
+    line-height: 1.2;
+   
+ 
+}
+#pz{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+    
+}
+#style-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   color: white;
+}
+#boxex1{
+    text-align: center;
+    padding: 50px;
+ background-color:#5acda6;
+}
+#boxex2{
+    padding: 50px;
+    text-align: center;
+    background-color:#91ac41;
+}
+#boxex3{
+    text-align: center;
+    padding: 50px;
+    background-color:#e4b476;
+}
+#boxex4{
+    text-align: center;
+    padding: 50px;
+    background-color:#f69dad;
+}
+.step-1{
+    font-size: 80px;
+    padding: 20px;
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+.icon:hover .step-1{
+    transform: scale(1.4);
+}
+#highlights-section{
+    background-color:#f7eee2;
+    text-align: center;
+}
+#fresh-food-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+    padding-top: 35px;
+}
+#store-desc {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+#fresh-food-heading{
+    margin-top: 0px;
+}
+#highlights-section > h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#section-grid{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+
+    
+}
+.store-card1{
+    width: 200px ;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #e3b375;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: t transform;
+    transition-duration: 500ms;
+}
+.grid-icon{
+    color: white;
+    font-size: 70px;
+}
+.section-card{
+    padding: 25px;
+  
+}
+.store-card1:hover{
+    transform: scale(1.1);
+    
+}
+#feadback-sec{
+    text-align: center;
+  
+}
+#hs{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+ }
+.feadback-section{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.i-size{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.fead-b{
+   
+    height: 300px;
+    background-color:#f5f6fb;
+    padding: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 25px;
+}
+.fead-b:hover{
+    box-shadow: -5px 5px 5px rgb(192, 203, 214);
+    
+}
+.mid-sec1{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+   
+}
+#mid-sec3{
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+    padding: 90px;
+}
+
+
+.input-but{
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 5px;
+}
+#sbu-button{
+  background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+#sbu-button:hover{
+    background-color: transparent;
+    color: #f69dad;
+    border: 2px solid#f69dad;
+}
+.ratings-1{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #f2faff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+}
+.ratings-3{
+    margin: 55px 20px;
+}
+#video-contener-1{
+    text-align: center;
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+.last-row1{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+    margin: 0px auto;
+   
+}
+#last-row2{
+    max-width: 70%;
+    padding: 0px 25px;
+}
+#last-row3{
+    max-width: 70%;
+}
+.input-button{
+    width: 300px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 200px;
+    border-radius: 6px;
+    margin: 10px 0px;
+    border: transparent;
+    border: 1px solid black;
+}
+#button-last-row{
+    padding: 10px;
+    color: white;
+    background-color: #91ac41;
+    font-size: 15px;
+    font-weight: 200px;
+    border-radius: 6px;
+    border: none;
+}
+#button-last-row:hover{
+    color: #91ac41;
+    background-color: transparent;
+    border: 2px solid #91ac41;
+}
+
+#video-cont2{
+    width: 60%;
+    /* border: 2px solid black; */
+    height: 400px;
+    margin: 0px auto;
+}
+
+
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 25px;
+    
+}
